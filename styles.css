@@ -1,0 +1,205 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Colors:
+   dark grey-#3c4245
+   light grey-#5f6769
+   blue-#719192
+   navy-#000080
+
+*/
+
+/******* Header *******/
+html {
+  background-color: white;
+  background: url(https://scontent.fagc2-1.fna.fbcdn.net/v/t1.0-9/10403132_243915702469379_2686811446205749708_n.jpg?_nc_cat=105&_nc_oc=AQkNSCLYO_yHk3xMsvqg3gs6FXCto7jSiLNV8ifq9vN1BUXjRcbZhYHdjynUmzjgqwU&_nc_ht=scontent.fagc2-1.fna&oh=ea8244e15e228a8fa37e1639fb4fa059&oe=5E31FC44) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color; #719292;
+  margin: 20px;
+}
+
+header {
+  color: white;
+  background: #3c4245;
+  border: 1px solid blue;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+nav a {
+  color: green;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+  color: lightgreen;
+  font-family: 'cursive';
+}
+
+/******* Quote *******/
+
+.quote p {
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
+}
+
+
+/******* About Me *******/
+.about h2 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.about p {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin: 30px;
+background-color: white;
+padding: 10px;
+border-radius: 1em;
+border: 1px solid blue;
+}
+
+/******* Fun Facts *******/
+.random {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-top: 24px;
+  background: #719192;
+}
+
+.random h2 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.random li {
+  font-size: 20px;
+  height: 100%;
+  padding: 5px;
+  color: #3c4245;
+  font-family: 'Open Sans', sans-serif;
+  list-style: circle;
+}
+
+/******* Hobbies *******/
+.gaming h2 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.gaming p {
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
+}
+
+/******* Hobbies: collections *******/
+.collections h2 {
+  Color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.collections p {
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
+}
+
+/******* Hobbies: bowling *******/
+.bowling h2 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.bowling p {
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
+}
+
+.lancasteronline img {
+  height: 200px;
+ padding: 5px;
+ border: 2px solid #dfcdc3;
+ border-radius: 1em;
+}
+
+/******* Experience *******/
+
+
+
+/******* Projects *******/
+.github h2 {
+  color: #000080;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.github p {
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
+}
+
+/******* Resume *******/
