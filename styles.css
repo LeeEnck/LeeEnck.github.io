@@ -7,7 +7,7 @@
 /* Colors:
    dark grey-#3c4245
    light grey-#5f6769
-   blue-#719192
+   light navy blue-#719192
    navy-#000080
    yellow-#ffff00
    black-#000000
@@ -240,7 +240,7 @@ footer {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #719192;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
