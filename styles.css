@@ -225,6 +225,7 @@ nav a:hover {
   border: 2px solid blue;
 }
 
+/******* GitHub link *******/
 .myprojects div {
   margin: 50px;
   padding: 25px;
@@ -257,6 +258,7 @@ footer {
   border: 2px solid blue;
 }
 
+/******* links *******/
 .contact img{
   width: 50px;
 }
