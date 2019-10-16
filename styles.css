@@ -27,7 +27,7 @@ body {
 
 header {
   color: white;
-  background: #3c4245;
+  background: #000000;
   border: 1px solid blue;
   font-family: 'Raleway', sans-serif;
 }
@@ -70,7 +70,7 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
@@ -89,7 +89,7 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
@@ -136,7 +136,7 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
@@ -155,7 +155,7 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
@@ -174,17 +174,16 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
 }
 
-.lancasteronline img {
- height: 200px;
- padding: 5px;
- border: 2px solid #dfcdc3;
- border-radius: 1em;
+.bowling img {
+ display: flex;
+ margin: auto;
+ width:500px;
 }
 
 /******* Experience *******/
@@ -200,7 +199,7 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
@@ -219,10 +218,21 @@ nav a:hover {
   font-family: 'Raleway', 'cursive', monospace;
   text-align: center;
   margin: 50px;
-  background-color: black;
+  background-color: #000000;
   padding: 25px;
   border-radius: 4em;
   border: 2px solid blue;
+}
+
+.myprojects div {
+  margin: 50px;
+  padding: 25px;
+}
+
+.myprojects img {
+  display: flex;
+  background-color: #000080;
+  margin: auto;
 }
 
 /******* Resume *******/
