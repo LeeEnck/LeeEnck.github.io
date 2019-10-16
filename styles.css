@@ -9,7 +9,7 @@
    light grey-#5f6769
    blue-#719192
    navy-#000080
-
+   yellow-#ffff00
 */
 
 /******* Header *******/
@@ -59,6 +59,12 @@ nav a:hover {
 }
 
 /******* Quote *******/
+.quote h2 {
+  color: #ffff00;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
 
 .quote p {
   color: lightgreen;
@@ -71,23 +77,23 @@ nav a:hover {
   border: 2px solid blue;
 }
 
-
 /******* About Me *******/
 .about h2 {
-  color: #000080;
+  color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
 }
 
 .about p {
-font-family: 'Open Sans', sans-serif;
-text-align: center;
-margin: 30px;
-background-color: white;
-padding: 10px;
-border-radius: 1em;
-border: 1px solid blue;
+  color: lightgreen;
+  font-family: 'Raleway', 'cursive', monospace;
+  text-align: center;
+  margin: 50px;
+  background-color: black;
+  padding: 25px;
+  border-radius: 4em;
+  border: 2px solid blue;
 }
 
 /******* Fun Facts *******/
@@ -100,7 +106,7 @@ border: 1px solid blue;
 }
 
 .random h2 {
-  color: #000080;
+  color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -117,7 +123,7 @@ border: 1px solid blue;
 
 /******* Hobbies *******/
 .gaming h2 {
-  color: #000080;
+  color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -136,7 +142,7 @@ border: 1px solid blue;
 
 /******* Hobbies: collections *******/
 .collections h2 {
-  Color: #000080;
+  Color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -155,7 +161,7 @@ border: 1px solid blue;
 
 /******* Hobbies: bowling *******/
 .bowling h2 {
-  color: #000080;
+  color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -185,7 +191,7 @@ border: 1px solid blue;
 
 /******* Projects *******/
 .github h2 {
-  color: #000080;
+  color: #ffff00;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -203,3 +209,9 @@ border: 1px solid blue;
 }
 
 /******* Resume *******/
+.resume h2 {
+  color: #ffff00;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
