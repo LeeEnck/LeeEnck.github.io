@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  background-color: #719292;  /*changed to correct syntax*/
   margin: 20px;
 }
 
